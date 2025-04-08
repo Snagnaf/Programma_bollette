@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net" modified="2025-04-07T13:49:55.986Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" etag="tYw085t7BOf-TrSY6BGg" version="24.2.5" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1434" dy="1892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AJi03OFCE5Ok9FOInWew-2" value="Leggi PDF" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-5" value="File documento" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AJi03OFCE5Ok9FOInWew-2">
+          <mxGeometry y="30" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-19" value="Dizionario&amp;lt;Campo:Valore&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt; dati_bolletta&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AJi03OFCE5Ok9FOInWew-2">
+          <mxGeometry y="60" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Campo&lt;/h1&gt;&lt;div&gt;Data, Importo bolletta&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="10" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Valore&lt;/h1&gt;&lt;div&gt;DataType, EUR&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="90" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AJi03OFCE5Ok9FOInWew-11" target="AJi03OFCE5Ok9FOInWew-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-11" value="Valori file" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="70" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-22" value="INPUT: Lista&amp;lt;file&amp;gt; documenti" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AJi03OFCE5Ok9FOInWew-11">
+          <mxGeometry y="30" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-12" value="OUTPUT: Dizionario&amp;lt;Fornitore, dati_bolletta&amp;gt; dati_bollette" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AJi03OFCE5Ok9FOInWew-11">
+          <mxGeometry y="60" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-23" value="Creazione PDF" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-24" value="INPUT: Dizionario dati_bollette" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AJi03OFCE5Ok9FOInWew-23">
+          <mxGeometry y="30" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-25" value="dati_bollette -&amp;gt; dati_bolletta -&amp;gt; &quot;mese&quot;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AJi03OFCE5Ok9FOInWew-23">
+          <mxGeometry y="60" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-26" value="OUTPUT: stampa la tabella" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AJi03OFCE5Ok9FOInWew-23">
+          <mxGeometry y="90" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AJi03OFCE5Ok9FOInWew-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Estrazione dati&lt;/h1&gt;&lt;div&gt;Scorre i file pdf nelle cartelle&lt;/div&gt;&lt;div&gt;Ottiene i valori nei pdf&amp;nbsp;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-50" width="180" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
